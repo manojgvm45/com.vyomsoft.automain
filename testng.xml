@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testsuites.S10_016_EditDashboard"/>
+      <class name="testNGbootcamp.S10_016_EditDashboard_Trail"/>
+      <class name="testsuites.S10_112_CreateWorktype"/>
+      <class name="testsuites.S10_117_CreateParentTerritory"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
