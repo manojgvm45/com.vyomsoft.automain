@@ -77,8 +77,8 @@ public class S10_016_EditDashboard extends baseHooks {
 			 		//Thread.sleep(3000);
 			 		//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 					//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class='slds-theme--success slds-notify--toast slds-notify slds-notify--toast forceToastMessage']")));
-			 		Thread.sleep(1000);
-					String editDBmsg = driver.findElement(By.xpath("//*[@class='slds-theme--success slds-notify--toast slds-notify slds-notify--toast forceToastMessage']")).getText();
+			 		driver.switchTo().defaultContent();
+			 		String editDBmsg = driver.findElement(By.xpath("//*[@class='slds-theme--success slds-notify--toast slds-notify slds-notify--toast forceToastMessage']")).getText();
 			System.out.println(editDBmsg);
 
 		}
