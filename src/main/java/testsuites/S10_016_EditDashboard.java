@@ -80,7 +80,6 @@ public class S10_016_EditDashboard extends baseHooks {
 			 		driver.switchTo().defaultContent();
 			 		String editDBmsg = driver.findElement(By.xpath("//*[@class='slds-theme--success slds-notify--toast slds-notify slds-notify--toast forceToastMessage']")).getText();
 			System.out.println(editDBmsg);
-		---Author : Manoj-------
 
 		}
 
