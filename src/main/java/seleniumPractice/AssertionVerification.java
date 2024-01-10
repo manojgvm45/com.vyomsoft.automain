@@ -3,7 +3,6 @@ package seleniumPractice;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
 
 public class AssertionVerification {
 
@@ -15,7 +14,11 @@ public class AssertionVerification {
 		Thread.sleep(1000);
 		String pageTitle = driver.getTitle();
 		System.out.println(pageTitle);
-		Assert.assertEquals(pageTitle, pageTitle, "DashBoard");		
+	//	Assert.assertEquals(pageTitle, pageTitle, "DashBoard");	
+		
+	
+		
+		
 	}
 
 }

@@ -21,7 +21,7 @@ public class WindowHandle {
 		for (String newWindow : allWindows) {
 			if(!newWindow.equals(parentWindow)) {
 			driver.switchTo().window(newWindow);
-			Thread.sleep(3000);
+			Thread.sleep(6000);
 			driver.findElement(By.xpath("//*[@placeholder='Search...']")).sendKeys("manj");
 			//driver.close();
 			}
@@ -38,7 +38,7 @@ public class WindowHandle {
 				int windowSize = multiWindows.size();
 				System.out.println(windowSize);
 				for (String closeWindows : multiWindows) {
-					driver.switchTo().window(closeWindows);
+					//driver.switchTo().window(closeWindows);
 					if(!closeWindows.equals(parentWindow)) {
 						driver.switchTo().window(closeWindows);
 						driver.close();

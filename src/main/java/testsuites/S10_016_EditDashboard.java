@@ -75,6 +75,8 @@ public class S10_016_EditDashboard extends baseHooks {
 			 		Thread.sleep(3000);
 			 		//driver.findElement(By.xpath("//button[text()='Save']")).click();
 			 		//Thread.sleep(3000);
+			 		driver.findElement(By.xpath("//button[text()='Save']")).click();
+			 		//Thread.sleep(3000);
 			 		//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 					//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class='slds-theme--success slds-notify--toast slds-notify slds-notify--toast forceToastMessage']")));
 			 		driver.switchTo().defaultContent();

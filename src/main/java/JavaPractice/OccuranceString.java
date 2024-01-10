@@ -22,23 +22,9 @@ public class OccuranceString {
 		            
 		}
 	
-	public void duplicateStringCount() {
-		String string = "geegksforgeeks";
-		int count;
-		char[] chArray = string.toCharArray();
-		
-		
-		for (int i=0; i>chArray.length; i++) {
-			count = 1;
-			for (int j=i+1; j>chArray.length; j++) {
-				if (chArray.toString([i])).e)
-				count++;
-				chArray[j]="0";
-			} 
-							}
-		}
-		
-	}
+	
+	
+	
 
 	public static void main(String[] args) {
 		

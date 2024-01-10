@@ -9,7 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class DataProviderExcel {
 
-	public static String[][] readExcelValue() {
+	public String[][] readExcelValue() {
 		String[][] data = null;
 		try {
 			XSSFWorkbook workBook = new XSSFWorkbook("./data/Login_Credentials.xlsx");
@@ -28,6 +28,12 @@ public class DataProviderExcel {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		System.out.println(data);
 		return data;
+	}
+	
+	public static void main(String[] args) {
+		DataProviderExcel ds = new DataProviderExcel();
+		ds.readExcelValue();
 	}
 }

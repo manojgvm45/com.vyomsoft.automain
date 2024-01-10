@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class DuplicateWord {  
+public class DuplicateWordOccurance {  
 	//algorithm:
 	//Split the String into String[] using RegEx
 	//using for loop iterate String[i] and make count as 1
@@ -14,8 +14,9 @@ public class DuplicateWord {
 	
 	
     public static void main(String[] args) {  
-        String string = "Manoj said i love music suga said i love music and movies";  
-        String[] strArray = string.split(" ");
+        String string = "NANDAN";//"Manoj said i love music suga said i love music and movies";  
+        String[] strArray = string.split("");
+        
         int count;
         
         for (int i=0; i<strArray.length ; i++) {
@@ -26,10 +27,24 @@ public class DuplicateWord {
         			strArray[j]="0";
         			}
         		} 
-        		if (count>1 &&(strArray[i]!="0")) {
+        		if (count>0 &&(strArray[i]!="0")) {
             		System.out.println(strArray[i] + " times coming :" + count);
             	}
         	}
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         Map<String, Integer> stringMap = new HashMap<>();
         
         for (String mapStr : strArray) {
