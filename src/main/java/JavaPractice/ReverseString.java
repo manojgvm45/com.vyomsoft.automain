@@ -9,9 +9,10 @@ public class ReverseString {
 
 	public static void main(String[] args) {
 		String str = "IronMan";
-		System.out.println("lengthof string: " +str.length());
 
 			str=str.toLowerCase();
+			System.out.println("lengthof str: " +str.length());
+
 			char[] chArray = str.toCharArray();
 			System.out.println("lengthof chArray: " +chArray.length);
 			
