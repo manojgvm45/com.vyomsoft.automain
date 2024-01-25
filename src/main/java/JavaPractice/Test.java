@@ -7,7 +7,7 @@ public static int main(int j) {
               final int i;
      		 i = 10;
      		 int j = i+10;
-     		// i = j+10;
+     		 i = j+10;
      	     System.out.println(i + " " + j);
 System.out.println('c');
 System.out.println('s');
